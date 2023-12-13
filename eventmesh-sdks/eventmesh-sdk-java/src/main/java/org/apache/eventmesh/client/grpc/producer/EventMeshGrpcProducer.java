@@ -89,6 +89,7 @@ public class EventMeshGrpcProducer implements AutoCloseable {
         }
     }
 
+    @SuppressWarnings("unchecked")
     public <T> T requestReply(final T message, final long timeout) {
 
         if (message instanceof CloudEvent) {

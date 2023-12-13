@@ -17,12 +17,14 @@
 
 pubSubConfig:
     meshAddress: 127.0.0.1:10000
-    subject: TEST-TOPIC-SPRING
+    subject: TEST-TOPIC-WECHAT
     idc: FT
     env: PRD
-    group: springSink
-    appId: 5033
-    userName: springSinkUser
-    passWord: springPassWord
+    group: weChatSink
+    appId: 5034
+    userName: weChatSinkUser
+    passWord: weChatPassWord
 sinkConnectorConfig:
-    connectorName: springSink
+    connectorName: weChatSink
+    appId: wx4f024195d7ca9be4
+    appSecret: 5ef866b34071fe1efc50b37feb44fba4
